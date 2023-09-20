@@ -121,7 +121,6 @@
 }
 
 .container-ultimas-noticias{
-
     margin-left: auto;
     margin-right: auto; 
     width: 750px;
@@ -135,12 +134,13 @@
       float:none;
       margin: 0px;
     }
-    .container-ultimas-noticias{
-        width: fit-content;
-    }
     .container-ulnoticia{
         width: 300px;
         margin: 0px;
+    }
+    .container-ultimas-noticias{
+        width: 100px;
+       
     }
     .linha{
         width: 455px;
