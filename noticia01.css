@@ -146,3 +146,22 @@
         width: 455px;
     }
 }
+
+@media(max-width: 370px){
+    .container-ulnoticia img{
+      width:200px;
+      float:none;
+      margin: 0px;
+    }
+    .container-ulnoticia{
+        width: 200px;
+        margin: 0px;
+    }
+  
+}
+
+@media(min-width:800px){
+    .container-titulo {
+        grid-template-columns: 400px 400px;
+    }
+}
