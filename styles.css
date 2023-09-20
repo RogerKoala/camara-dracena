@@ -1,0 +1,340 @@
+body{
+    font-family: 'Open Sans', sans-serif!important;
+    margin: 0px!important;
+    color:black!important;
+}
+
+.nav{
+    align-items: center;
+}
+
+.dropdown:hover .dropdown-menu{
+    display:block;
+    font-size: 15px;
+}
+
+.dropdown-menu a:hover {
+    background-color:rgb(212, 212, 212);
+}
+
+.fixo{
+    background: rgb(53,78,164);
+    padding-top: 4px;
+    padding-bottom: 4px;
+    box-shadow: 5px;
+    box-shadow: 1px 1px 5px black!important;
+}
+
+.banner{
+    width: 125px;
+}
+.navbar-nav{
+    font-family: 'Akatab', sans-serif;
+    font-size: 1rem;
+}
+
+.navbar-nav .dropdown-menu {
+    position: absolute!important;
+}
+
+.nav-link{
+    color:white!important;
+}
+
+.d-flex {
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.dropdown-menu {
+    left: 50%;
+    right: auto;
+    text-align: center;
+    transform: translate(-50%, 0);
+}
+
+.dropdown:before{
+    content: "";
+    position: absolute;
+    bottom: 5px;
+    right:0px ;
+    left: 0px;
+    height: 2px;
+    width: 100%;
+    background-color: #30F562 ;
+    border-radius: 50px;
+    transform: scaleX(0); 
+    transition: transform 0.2s linear;
+
+}
+
+.dropdown:hover:before{
+    transform: scaleX(0.75);
+}
+
+#carouselPrincipal{
+    display: flex;
+    justify-content: center;
+    margin-bottom: -20px;
+    width: 1000px;
+    height: 400px;
+} 
+
+.destaque{
+    display: flex;
+    justify-content: center;
+    margin-top:21px;
+    padding: 28px;
+    background-color: #F7F7F7;
+    max-width: 100%;
+}
+
+.destaque img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+#carouselPrincipal img{
+    width: 1000px;
+    height: 400px; 
+    cursor: pointer;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.79)!important;    
+    margin-inline:-150px;
+    margin-block: -30px;
+    padding-top: 0!important;
+    color:white!important;
+    text-align: left !important;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: white!important;
+}
+
+.card-titulo {
+    display: flex;
+    justify-content: center!important;
+    align-items: center;
+    font-family: 'Fira Sans', sans-serif;
+    padding:10px;
+    margin-bottom: 25px;
+    font-size: 1.8rem;
+    border-radius: 100px;
+    font-weight: bold;
+}
+
+#customCarousel .carousel-inner {
+      width: 73% !important;
+      margin: 0 auto;
+    }
+
+.custom-card {
+    max-width: 300px;
+    margin:0 auto;
+    margin-bottom: 50px;
+    cursor: pointer;
+  }
+
+  .custom-card img {
+    max-width: 100%;
+  }
+
+.card-text{
+    font-size: 18px;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    display: -webkit-box;
+    -webkit-line-clamp: 2; 
+    -webkit-box-orient: vertical; 
+}
+
+.ver-mais{
+    display: flex!important;
+    justify-content: center!important;
+    padding-bottom: 20px;
+}
+
+.blocos{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(237, 237, 237);
+}
+
+.bloco{
+   
+    height: 400px;
+    background-color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 6px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12)
+}
+
+.bloco .square:hover{
+        transform: scale(1.03);
+        box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+        cursor:pointer;
+}
+
+.centro-square{
+    display: flex;
+    justify-content: center;
+}
+
+.square{
+    width: 200px;
+    height: 200px;
+    background-color: #0F1C49;
+    padding: 50px;
+}
+
+.bloco h3{
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: rgb(33, 62, 157);
+}
+
+.bloco p{
+    text-align: center;
+}
+
+.legislatura{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-bottom: 50px;
+    width:1000px!important;
+    color:white!important;
+    font-family: 'Lexend', sans-serif;
+    text-align: center;
+}
+
+.bloco-ver{
+    background-color: #0f1c49;
+}
+
+.vereadores{
+    display: flex;
+    padding-left: 150px;
+    padding-right: 185px;
+    justify-content: center;
+}
+@media(max-width: 768px){
+    .vereadores{
+        padding: 0;
+    }
+}
+.vereadores img{
+    clip-path: circle(49px);   
+    width: 100px;
+    padding-top: 25px;
+    cursor: pointer;
+}
+
+.container-vereador{
+    width: 200px !important;
+    height: 250px;
+    color:white;
+    font-size: 15px;
+    text-align: center;
+    
+}
+h4{
+    font-size: 17px!important;
+    cursor: pointer;
+}
+
+.container-vereador p{
+    color:yellow;
+    cursor: pointer;
+}
+
+.sc{
+    display: flex;
+    justify-content: center;
+    font-family: 'Fira Sans', sans-serif;
+    padding:10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.centro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-servicos{
+    display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 50px;
+            justify-content: center;
+}
+
+.grid-servicos img{
+    max-width: 100%;
+    height: auto;
+    margin:auto;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .grid-servicos {
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: auto; 
+    }
+}
+
+footer{
+    background-color: #0F1C49;
+    list-style: none;  
+}
+
+.endereco a{
+    text-decoration: none!important;
+    color:white!important;
+
+}
+
+footer a:hover{
+    color:rgb(175, 175, 175)!important;
+    cursor: pointer;
+}
+
+.mb-4{
+    text-align: center;
+}
+
+.endereco{
+    padding-bottom: 10px;
+
+}
+
+.telefone {
+    padding-bottom: 10px;
+}
+
+.horario{
+    padding-bottom: 10px;
+}
+
+.icones{
+    padding-top: 30px;
+}
+
+
+
+
+
+
+
+
+

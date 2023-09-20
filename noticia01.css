@@ -1,0 +1,148 @@
+.menu-noticia{
+    background: rgb(53,78,164);
+    padding-top: 4px;
+    padding-bottom: 4px;
+    
+}
+
+.container-centro-titulo{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+
+}
+
+.container-titulo{
+    display: grid;
+    grid-template-columns: 444px 444px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+@media (max-width: 768px) {
+    .container-titulo {
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: auto; 
+    }
+}
+
+.titulo-noticia{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    font-weight: bold;
+    grid-column: span 2 ;
+    font-size: 30px;
+}
+
+
+.data{
+    grid-column-start: 2;
+    text-align:right;
+    font-size: 20px;
+    padding: 0%;
+    margin-bottom: 0px;
+}
+
+@media(max-width: 768px){
+    .data{
+        grid-column-start: 1;
+        text-align: left;
+        font-size: 16px;
+    }
+}
+
+.container-noticia{
+    grid-template-columns: 750px auto;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 750px;
+    margin-bottom: 50px;
+   
+}
+
+@media(max-width: 768px){
+    .container-noticia{
+        width: fit-content;
+    }
+}
+
+.imagem-noticia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width:100%;
+    padding:50px;
+    border-radius: 60px;
+}
+
+.noticia{
+    text-align: left;
+    padding-left:50px;
+    padding-right: 50px;
+}
+
+.center-linha{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.linha{
+    width: 888px;
+    height: 1px;
+    background-color:#ccc;
+}
+
+.ultimas-noticias{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container-ulnoticia img{
+    position: relative;
+    width:369px;
+    height: 206px;
+    float:left;
+    margin-right: 10px;
+}
+
+.container-ulnoticia{
+    width: 888px;
+    margin-bottom: 40px;
+    cursor:pointer;
+}
+
+.titulo-ulnoticia{
+    font-size:20px;
+    font-weight: bold;
+
+}
+
+.container-ultimas-noticias{
+
+    margin-left: auto;
+    margin-right: auto; 
+    width: 750px;
+    margin-bottom: 50px;
+   
+}
+
+@media(max-width: 768px){
+    .container-ulnoticia img{
+      width:300px;
+      float:none;
+      margin: 0px;
+    }
+    .container-ultimas-noticias{
+        width: fit-content;
+    }
+    .container-ulnoticia{
+        width: 300px;
+        margin: 0px;
+    }
+    .linha{
+        width: 455px;
+    }
+}
