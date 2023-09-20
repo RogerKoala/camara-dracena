@@ -28,11 +28,21 @@ body{
 .banner{
     width: 125px;
 }
+
 .navbar-nav{
     font-family: 'Akatab', sans-serif;
     font-size: 1rem;
 }
 
+@media(max-width:420px){
+
+.navbar-nav{
+    font-size: 0.85rem;
+    }
+    .banner{
+        width: 100px;
+    }
+}
 .navbar-nav .dropdown-menu {
     position: absolute!important;
 }

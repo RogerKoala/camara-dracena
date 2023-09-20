@@ -106,18 +106,23 @@
     height: 206px;
     float:left;
     margin-right: 10px;
+    cursor:pointer;
 }
 
 .container-ulnoticia{
     width: 888px;
     margin-bottom: 40px;
-    cursor:pointer;
+
 }
 
 .titulo-ulnoticia{
     font-size:20px;
     font-weight: bold;
+    cursor:pointer;
+}
 
+.padrao-ulnoticia{
+    cursor:pointer;
 }
 
 .container-ultimas-noticias{
@@ -125,8 +130,8 @@
     margin-right: auto; 
     width: 750px;
     margin-bottom: 50px;
-   
 }
+
 
 @media(max-width: 768px){
     .container-ulnoticia img{
@@ -165,3 +170,4 @@
         grid-template-columns: 400px 400px;
     }
 }
+
